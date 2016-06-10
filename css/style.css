@@ -1,19 +1,37 @@
+
 /* Stage */
-
-#stage {
-    background: gray;
-    height: 300px;
-    width: 600px;
+*{
+     font-family: 'Wire One', sans-serif;
 }
 
-#stage #tri{
-     
-     height: 300px;
-     width: 300px;
-     
+#stage{
+     margin-bottom: -100px;
 }
 
+.goods{
+     display: flex;
+     align-items: center;     
+}
 
+#box1{
+     display: flex;
+     align-items: center;
+     height:300px;
+     width: 200px;   
+}
+
+h1{
+     font-size: 200px;
+     margin-left: 20px;
+}
+
+.ani, #box1{
+     animation: bounceInLeft 2s;
+}
+
+.ani, h1{
+  animation:bounceInRight 2s;
+} 
 /* DO NOT EDIT BELOW THIS LINE */
 
 input {
@@ -46,3 +64,5 @@ button {
     padding: .5em 1em;
     text-align: center;
 }
+
+
